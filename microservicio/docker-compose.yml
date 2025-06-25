@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  upsjb-microservicio:
+    image: kimberling17/upsjb-microservicio:3.0
+    container_name: upsjb-microservicio
+    ports:
+      - "8085:8085"
+    environment:
+      - PORT=8085
